@@ -1,0 +1,39 @@
+.header{
+    margin: 34px 0 34px 0;
+}
+
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & nav{
+        display: flex;
+        align-items: center ;
+        gap: 65px;
+    
+        & ul{
+            display: flex;
+            gap: 40px;
+            & a{
+                color: black;
+                &:active{
+                    color: #646464;
+                }
+                &:hover{
+                    color: #646464;
+                }
+            }
+        }
+        & button{
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 15px 0 15px 0;
+            border: none;
+            background-color: #CAA892;
+            color: white;
+        }
+    }
+    
+
+}

@@ -1,0 +1,15 @@
+.btn{
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 15px 0 15px 0;
+    border: none;
+    background-color: #37806B;
+    color: white;
+    font-size: large;
+    width: fit-content;
+    margin-top: 5%;
+}
+
+.btn:hover{
+    opacity: .8;
+}

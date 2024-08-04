@@ -1,0 +1,26 @@
+.title-block{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    t
+    & h2{
+        font-weight: 600;
+        font-size: 20px;
+        color: #646464;
+    }
+    & h1{
+        font-weight: 600;
+        font-size: 72px;
+        color: #212121;
+    }
+    & p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 167%;
+        color: #646464;
+        max-width: 90%;
+    }
+    & button{
+        width: fit-content;
+    }
+}

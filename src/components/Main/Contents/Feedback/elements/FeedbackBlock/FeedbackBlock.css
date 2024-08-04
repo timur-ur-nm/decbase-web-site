@@ -1,0 +1,35 @@
+.feedback_block_content{
+    padding: 50px;
+    border-radius: 70px 0;
+    box-shadow: 7px 7px 30px 5px rgba(66, 96, 84, 0.15);
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    padding-left: 100px;
+    position: relative;
+  
+
+}
+
+.feedback_block_title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    & > span{
+        font-weight: 700;
+    font-size: 24px;
+    color: #212121;
+    }
+    & > p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 156%;
+        color: #646464;
+    }
+    
+}
+.feedback_block_img{
+    position: absolute;
+    left: -70px;
+}

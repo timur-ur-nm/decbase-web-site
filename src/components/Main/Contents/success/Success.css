@@ -1,0 +1,31 @@
+.success{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.success_title{
+    display: flex;
+    flex-direction: column;    
+}
+
+.success_title > p{
+    font-size: 15em;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #424242;
+
+}
+
+.success_title > h1{
+    max-width: 70%;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #212121;
+}

@@ -1,0 +1,31 @@
+.AboutUsContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 10px;
+
+    & > h3{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #646464;
+    } 
+
+    & > h1{
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 119%;
+        color: #212121;
+    } 
+
+    & > p{
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 167%;
+        color: #646464;
+    } 
+
+
+}

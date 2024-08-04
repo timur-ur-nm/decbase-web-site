@@ -1,0 +1,18 @@
+.buttons{
+    display: flex;
+    gap: 10px;
+    & button{
+        width: 30px;
+        border-radius: 50%;
+        fill: #fff;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        padding: 10px;
+        border: none;
+    }
+    & button:hover{
+        color: white;
+        border-radius: 100%;
+        background-color: #37806b;
+        box-shadow: -1px 3px 10px 0 rgba(0, 0, 0, 0.3);
+    }
+}

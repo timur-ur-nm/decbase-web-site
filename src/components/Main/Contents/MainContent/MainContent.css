@@ -1,0 +1,12 @@
+.maincontent{
+    margin-top: 5%;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    gap: 44px;
+    
+    & img{
+        width: 50%;
+    }
+}

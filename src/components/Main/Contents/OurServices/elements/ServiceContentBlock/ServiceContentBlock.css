@@ -1,0 +1,39 @@
+.service-content-block{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.14);
+    background: #fff;
+    border-radius: 60px 0;
+    padding: 40px 35px;
+    width: 100%;  
+}
+.service-content-block:hover{
+    background-color: #CAA892;
+    color: white;
+}
+
+.service-content-block:hover p,.service-content-block:hover h1{
+    transition: none;
+    color: white;
+}
+
+.service-content-block_title{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+    & > h1{
+        font-weight: 700;
+        font-size: 24px;
+    
+    }
+    & > p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 156%;
+        letter-spacing: -0.01em;
+        
+    }
+    
+}
